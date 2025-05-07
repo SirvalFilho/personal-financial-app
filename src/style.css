@@ -5,6 +5,8 @@
 :root{
     --bg-color-main:#121712;
     --bg-option-focus: #293829;
+    --border-1-green: #3D543D;
+    --font-1-softgreen:#9EB89E;
 }
 
 body{

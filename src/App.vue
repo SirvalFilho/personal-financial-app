@@ -3,7 +3,7 @@
     <aside class="w-1/5">
       <NavBar />
     </aside>
-    <main class="w-4/5">
+    <main class="w-4/5 p-2">
       <router-view/>
     </main>
   </div>
