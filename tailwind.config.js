@@ -8,7 +8,7 @@ export default {
       extend: {
         colors: {
           "bg-option-focus": "var(--bg-option-focus)",
-        },
+        }
       },
     },
     plugins: [],

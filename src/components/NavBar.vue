@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-screen flex flex-col gap-5 justify-start p-5">
+  <div class=" min-h-screen flex flex-col gap-5 justify-start p-5">
     <router-link to="/" :class="[
     'flex items-center gap-5 px-5 p-3 text-white text-xl hover:bg-[var(--bg-option-focus)] hover:rounded-xl',
     $route.path === '/home' ? 'bg-[var(--bg-option-focus)] rounded-xl' : ''
