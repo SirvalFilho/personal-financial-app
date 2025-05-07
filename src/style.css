@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
 @import "tailwindcss";
+
+
+:root{
+    --bg-color-main:#121712;
+    --bg-option-focus: #293829;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-color-main);
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}

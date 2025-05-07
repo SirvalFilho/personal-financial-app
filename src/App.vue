@@ -1,8 +1,17 @@
 <template>
-  <h1>Personal Financial App</h1>
+  <div class="flex min-h-screen">
+    <aside class="w-1/5">
+      <NavBar />
+    </aside>
+    <main class="w-4/5">
+      <router-view/>
+    </main>
+  </div>
 </template>
 
 <script setup>
+import NavBar from './components/NavBar.vue'
+import { ref } from 'vue'
 </script>
 
 <style scoped>
