@@ -30,7 +30,7 @@ const chartOptions1 = {
     legend: {
       display: true,
       position: 'top',
-     
+      onClick: () => {},
       labels: {
         generateLabels: function(chart) {
           if (!chart || !chart.data || !chart.data.datasets || chart.data.datasets.length === 0) {
@@ -126,6 +126,7 @@ const chartOptions2 = {
     legend: {
       display: true,
       position: 'top',
+       onClick: () => {},
       labels: {
         generateLabels: function(chart) {
           if (!chart || !chart.data || !chart.data.datasets || chart.data.datasets.length === 0) {
@@ -225,10 +226,10 @@ chartData2.datasets[0].pointBackgroundColor = percentageChange2 < 0 ? '#1A9EFF' 
 <template>
   <div class=" flex flex-row overflow-x-hidden">
     <div class="flex-1 max-h-80 pr-5">
-    <Line :data="chartData1" :options="chartOptions1" class="h-full" />
+    <Line :data="chartData1" :options="chartOptions1" />
   </div>
   <div class="flex-1 max-h-80">
-    <Line :data="chartData2" :options="chartOptions2" class="h-full" />
+    <Line :data="chartData2" :options="chartOptions2" />
   </div>
   </div>
 </template>
