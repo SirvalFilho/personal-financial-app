@@ -1,7 +1,8 @@
 <script setup>
-import HeaderTransaction from '../components/transactions/HeaderTransactions.vue'
+import HeaderTransaction from '../components/transactions/HeaderTransactions.vue';
 import TransactionInput from '../components/transactions/TransactionInput.vue';
-import CategorySelector from "../components/transactions/CategorySelector.vue"
+import CategorySelector from "../components/transactions/CategorySelector.vue";
+import PrimaryButton from '../components/transactions/PrimaryButton.vue';
 </script>
 
 <template>
@@ -33,6 +34,10 @@ import CategorySelector from "../components/transactions/CategorySelector.vue"
         <CategorySelector name="Investments" />
         <CategorySelector name="Savings" />
         <CategorySelector name="Debt payments" />
+    </div>
+
+    <div class="flex justify-end">
+        <PrimaryButton name="Add entry"/>
     </div>
 </template>
 
