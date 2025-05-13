@@ -26,6 +26,5 @@ const selectedTab = ref("All");
   padding: 32px 16px;
   color: #fff;
   min-height: 100vh;
-  background-color: #1a1d1a;
 }
 </style>
